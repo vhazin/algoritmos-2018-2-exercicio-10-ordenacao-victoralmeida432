@@ -9,3 +9,102 @@ A entrada é composta por vários nomes. O primeiro valor N (0 ≤ N ≤ 100), i
 
 # Saída
 Para cada lista de crianças, você deve imprimir os nomes em ordem alfabética. Após imprimir os nomes das crianças, você deve mostrar o total de crianças que se comportaram bem ou mal durante o ano.
+
+
+Exemplos de Entrada	Exemplos de Saída
+16
++ Tininha
++ Dudinha
+- Carlinhos
+- Marquinhos
++ Joaozinho
++ Bruninha
+- Leandrinho
+- Fernandinha
++ Rafinha
+- Pedrinho
++ Aninha
+- Tamirinha
+- Gaguinho
+- Zezinho
+- Luquinhas
++ Julhinha
+
+Aninha
+Bruninha
+Carlinhos
+Dudinha
+Fernandinha
+Gaguinho
+Joaozinho
+Julhinha
+Leandrinho
+Luquinhas
+Marquinhos
+Pedrinho
+Rafinha
+Tamirinha
+Tininha
+Zezinho
+
+Se comportaram: 7 | Nao se comportaram: 9
+
+10
++ Zezinho
++ Mangojatinha
++ Bruninha
+- Joaozinho
+- Fernandinha
++ Aninha
+- Luquinhas
++ Pedrinho
+- Tininha
+- Marquinhos
+
+Aninha
+Bruninha
+Fernandinha
+Joaozinho
+Luquinhas
+Mangojatinha
+Marquinhos
+Pedrinho
+Tininha
+Zezinho
+
+Se comportaram: 5 | Nao se comportaram: 5
+
+15
++ Joaozinho
+- Fernandinha
++ Bruninha
++ Pedrinho
+- Zezinho
++ Mangojatinha
+- Marquinhos
++ Carlinhos
++ Aninha
+- Luquinhas
++ Rafinha
++ Leandrinho
+- Tamirinha
++ Julhinha
++ Gaguinho
+
+Aninha
+Bruninha
+Carlinhos
+Fernandinha
+Gaguinho
+Joaozinho
+Julhinha
+Leandrinho
+Luquinhas
+Mangojatinha
+Marquinhos
+Pedrinho
+Rafinha
+Tamirinha
+Zezinho
+
+Se comportaram: 10 | Nao se comportaram: 5
