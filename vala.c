@@ -9,7 +9,7 @@ typedef struct{
 }Kid;
 
 int main(void){
-    int number,comportou,nao_comportou;
+    int number,comportou,nao_comportou,aux;
     char especial;
     Kid lista[max_lista];
     scanf("%d",&number);
@@ -22,15 +22,17 @@ int main(void){
         }
         for(int j = 0; j < number; i++){
             for(int k = j + 1; k < number; k++){
-                if(strcmp(vetor[k], vetor[j]) == -1){
-                    strcpy(aux, vetor[j]);
-                    strcpy(vetor[i], vetor[k]);
-                    strcpy(vetor[k], max_nome);
+                if(strcmp(lista[k], lista[j]) == -1){
+                    strcpy(aux, lista[j]);
+                    strcpy(lista[i], lista[k]);
+                    strcpy(lista[k], max_nome);
             }
             }
         }
             for (int i = 0; i < number;i++)
                 printf("%s\n",lista[i].nome);
             printf("se comportaram: %d | Nao se comportaram: %d\n",comportou,nao_comportou);
+        
+        
         return 0;
 }
