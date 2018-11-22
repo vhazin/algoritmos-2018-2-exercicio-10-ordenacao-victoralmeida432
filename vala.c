@@ -9,7 +9,7 @@ typedef struct{
 }Kid;
 
 int main(void){
-    int number,comportou,nao_comportou,aux;
+    int number,comportou,nao_comportou,aux,j,k;
     char especial;
     Kid lista[max_lista];
     scanf("%d",&number);
@@ -20,12 +20,12 @@ int main(void){
         }else{
             nao_comportou++;
         }
-        for(int j = 0; j < number; i++){
-            for(int k = j + 1; k < number; k++){
-                if(strcmp(lista[k], lista[j]) == -1){
-                    strcpy(aux, lista[j]);
-                    strcpy(lista[i], lista[k]);
-                    strcpy(lista[k], max_nome);
+        for(j = 0; j < number; i++){
+            for(k = j + 1; k < number; k++){
+                if(strcmp(max_lista[k], max_lista[j]) == -1){
+                    strcpy(aux, max_lista[j]);
+                    strcpy(max_lista[i], max_lista[k]);
+                    strcpy(max_lista[k], max_nome);
             }
             }
         }
